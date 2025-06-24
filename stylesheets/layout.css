@@ -1,15 +1,5 @@
 body {
-  background-color: gray;
-}
-
-.nav-wrapper {
-  font-family: "Inter", sans-serif;
-  font-size: 1.111vw;
-  background-color: #4444e3;
-  text-align: flex-end;
-  color: #ffffff;
-  opacity: 70%;
-  text-decoration: none;
+  background-color: #f5f5f5;
 }
 
 .nav-wrapper {
@@ -38,6 +28,19 @@ body {
   text-decoration: none;
   color: #ffffff;
   opacity: 70%;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 1.736vw;
+}
+
+.newsname,
+.eventsname,
+.ticketsname,
+.aboutusname:hover {
+  font-size: 1.389vw;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 100%;
   font-family: "Inter";
   font-weight: 400;
   line-height: 1.736vw;
