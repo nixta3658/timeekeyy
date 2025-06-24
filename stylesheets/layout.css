@@ -17,6 +17,6 @@ body {
   margin: 0 15px;
 }
 
-.nav-wrapper ul li a:hover {
+.nav-list:hover {
   color: #ffffff;
 }
