@@ -5,7 +5,7 @@ body {
 .nav-wrapper {
   background-color: #4444e3;
   display: flex;
-  position: absolute;
+  position: static;
 }
 
 .logo {
@@ -15,7 +15,7 @@ body {
 }
 
 .pagenames {
-  padding-top: 215.28vw;
+  padding-top: 208.33vw;
   display: flex-end;
   gap: 3.75rem;
 }
@@ -30,7 +30,6 @@ body {
   opacity: 70%;
   font-family: "Inter";
   font-weight: 400;
-  line-height: 6vw;
 }
 
 .newsname,
@@ -43,5 +42,4 @@ body {
   opacity: 100%;
   font-family: "Inter";
   font-weight: 400;
-  line-height: 1.736vw;
 }
