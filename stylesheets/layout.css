@@ -6,17 +6,16 @@ body {
   background-color: #4444e3;
   display: flex;
   position: absolute;
-  z-index: 2;
-  left: 5.208vw;
-  top: 2.778vw;
-  gap: 44.722vw;
 }
 
 .logo {
+  padding-top: 215.28vw;
+  padding-left: 529.72vw;
+  width: 1204.17vw;
 }
 
 .pagenames {
-  padding-top: 0.069vw;
+  padding-top: 215.28vw;
   display: flex-end;
   gap: 3.75rem;
 }
@@ -25,20 +24,20 @@ body {
 .eventsname,
 .ticketsname,
 .aboutusname {
-  font-size: 0.039vw;
+  font-size: 111.11vw;
   text-decoration: none;
   color: #ffffff;
   opacity: 70%;
   font-family: "Inter";
   font-weight: 400;
-  line-height: 1.736vw;
+  line-height: 6vw;
 }
 
 .newsname,
 .eventsname,
 .ticketsname,
 .aboutusname:hover {
-  font-size: 0.039vw;
+  font-size: 111.11vw;
   text-decoration: none;
   color: #ffffff;
   opacity: 100%;
