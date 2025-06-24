@@ -1,3 +1,19 @@
 .nav-wrapper {
-    position: static;
+  position: static;
+  background-color: #4444e3;
+  padding: 1rem 2rem;
+}
+
+.nav-list a {
+  color: white;
+  opacity: 70%;
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 400;
+  padding: 0.5rem 3.75rem;
+  transition: single-transition 0.3s;
+}
+
+.nav-list a:hover {
+  color: white;
 }
