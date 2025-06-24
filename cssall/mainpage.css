@@ -4,14 +4,13 @@
   padding: 1rem 2rem;
 }
 
-.nav-wrapper a {
+.nav-list a {
   color: white;
+  opacity: 70%;
+  text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  text-decoration: none;
-  &:visited {
-    color: white;
-  }
+  padding: 0.5rem 3.75rem;
 }
 
 .nav-list {
@@ -21,16 +20,6 @@
   display: flex;
   align-items: flex-end;
   gap: 3.75rem;
-}
-
-.nav-list a {
-  color: white;
-  opacity: 70%;
-  text-decoration: none;
-  font-family: "Inter";
-  font-weight: 400;
-  padding: 0.5rem 3.75rem;
-  transition: single-transition 0.3s;
 }
 
 .nav-list a:hover {
