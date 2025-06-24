@@ -10,14 +10,14 @@ body {
   text-align: flex-end;
 }
 
-.nav-wrapper a {
+.nav-listtwo ul li a {
   color: #ffffff;
   opacity: 70%;
   text-decoration: none;
   margin: 0 15px;
 }
 
-.nav-list:hover {
+.nav-listtwo ul li a:hover {
   color: #ffffff;
   opacity: 100%;
 }
