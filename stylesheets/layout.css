@@ -15,9 +15,8 @@ body {
   opacity: 70%;
   text-decoration: none;
   margin: 0 15px;
-  text-transform: uppercase;
 }
 
-.nav-wrapper a:hover {
+.nav-wrapper ul li a:hover {
   color: #ffffff;
 }
