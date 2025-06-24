@@ -6,7 +6,6 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 1.111vw;
   background-color: #4444e3;
-  padding: 15px;
   text-align: flex-end;
 }
 
@@ -14,7 +13,6 @@ body {
   color: #ffffff;
   opacity: 70%;
   text-decoration: none;
-  margin: 0 15px;
 }
 
 .nav-listtwo ul li a:hover {
