@@ -17,6 +17,7 @@ body {
   margin: 0 15px;
 }
 
-.nav-list ul li a:hover {
+.nav-list:hover {
   color: #ffffff;
+  opacity: 100%;
 }
