@@ -2,6 +2,22 @@ body {
   background-color: gray;
 }
 
-.navbar {
+.nav-wrapper {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
   background-color: #4444e3;
+  padding: 15px;
+  text-align: flex-end;
+}
+
+.nav-wrapper a {
+  color: #ffffff;
+  opacity: 70%;
+  text-decoration: none;
+  margin: 0 15px;
+  text-transform: uppercase;
+}
+
+.nav-wrapper a:hover {
+  color: #ffffff;
 }
