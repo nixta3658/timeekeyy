@@ -6,9 +6,6 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 1.111vw;
   background-color: #4444e3;
-}
-
-.nav-wrapper ul li a {
   text-align: flex-end;
   color: #ffffff;
   opacity: 70%;
