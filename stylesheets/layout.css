@@ -3,6 +3,7 @@ body {
 }
 
 .nav-wrapper {
+  background-color: #4444e3;
   display: flex;
   position: absolute;
   z-index: 2;
@@ -16,15 +17,15 @@ body {
 
 .pagenames {
   padding-top: 0.069vw;
-  display: flex;
-  gap: 3.472vw;
+  display: flex-end;
+  gap: 3.75rem;
 }
 
 .newsname,
 .eventsname,
 .ticketsname,
 .aboutusname {
-  font-size: 1.389vw;
+  font-size: 0.039vw;
   text-decoration: none;
   color: #ffffff;
   opacity: 70%;
@@ -37,7 +38,7 @@ body {
 .eventsname,
 .ticketsname,
 .aboutusname:hover {
-  font-size: 1.389vw;
+  font-size: 0.039vw;
   text-decoration: none;
   color: #ffffff;
   opacity: 100%;
