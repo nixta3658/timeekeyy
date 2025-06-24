@@ -4,7 +4,7 @@ body {
 
 .nav-wrapper {
   font-family: "Inter", sans-serif;
-  font-size: 18px;
+  font-size: 1.111vw;
   background-color: #4444e3;
   padding: 15px;
   text-align: flex-end;
@@ -17,6 +17,6 @@ body {
   margin: 0 15px;
 }
 
-.nav-list:hover {
+.nav-list ul li a:hover {
   color: #ffffff;
 }
