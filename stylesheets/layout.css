@@ -6,16 +6,11 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 1.111vw;
   background-color: #4444e3;
-  text-align: flex-end;
 }
 
-.nav-listtwo ul li a {
+.nav-wrapper ul li a {
+  text-align: flex-end;
   color: #ffffff;
   opacity: 70%;
   text-decoration: none;
-}
-
-.nav-listtwo ul li a:hover {
-  color: #ffffff;
-  opacity: 100%;
 }
