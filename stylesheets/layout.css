@@ -16,10 +16,10 @@ body {
 }
 
 .nav-list {
-  gap: 45.786vw;
+  gap: 45vw;
   display: flex;
-  width: 89.583vw;
-  height: 1.667vw;
+  width: 89.58vw;
+  height: 1.67vw;
 }
 
 .logo {
@@ -35,7 +35,7 @@ body {
 
 .pagenames {
   display: flex;
-  gap: 4.167vw;
+  gap: 4.17vw;
 }
 
 .newsname,
@@ -45,8 +45,21 @@ body {
   text-decoration: none;
   color: #ffffff;
   opacity: 0.7;
-  font-size: 1.111vw;
-  font-family: "Roboto";
+  font-size: 1.11vw;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: normal;
+}
+
+.newsname:hover,
+.eventsname:hover,
+.ticketsname:hover,
+.aboutusname:hover {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 1.11vw;
+  font-family: "Inter";
   font-weight: 400;
   line-height: normal;
 }
