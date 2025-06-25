@@ -22,7 +22,7 @@ body {
 }
 
 .pagenames {
-  display: flex-end;
+  display: flex;
   gap: 4.167vw;
 }
 
@@ -42,9 +42,9 @@ body {
 .ticketsname,
 .aboutusname {
   text-decoration: none;
-  font-size: 1.111vw;
   color: #ffffff;
   opacity: 70%;
+  font-size: 1.111vw;
   font-family: "Inter";
   font-weight: 400;
   line-height: normal;
