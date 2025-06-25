@@ -63,3 +63,43 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
+.newsnamenews {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 1.11vw;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: normal;
+}
+
+.eventsnameevents {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 1.11vw;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ticketsnametickets {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 1.11vw;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutusnameaboutus {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 1.11vw;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: normal;
+}
