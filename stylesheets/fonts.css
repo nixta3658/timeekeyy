@@ -1,34 +1,34 @@
 @font-face {
   font-family: "Roboto";
-  src: url("..fonts/robotolight.ttf") format("truetype");
+  src: url("..fonts/roboto_light.ttf") format("truetype");
   font-style: light;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("..fonts/robotoregular.ttf") format("truetype");
+  src: url("..fonts/roboto_regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("..fonts/robotomedium.ttf") format("truetype");
+  src: url("..fonts/roboto_medium.ttf") format("truetype");
   font-style: medium;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("..fonts/interregular2.ttf") format("truetype");
+  src: url("..fonts/inter_regular2.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("..fonts/intermedium2.ttf") format("truetype");
+  src: url("..fonts/inter_medium2.ttf") format("truetype");
   font-style: medium;
   font-weight: 500;
 }
