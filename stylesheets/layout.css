@@ -14,15 +14,27 @@ body {
   align-items: center;
 }
 
-.logo {
-  padding-top: 215.28vw;
-  padding-left: 529.72vw;
-  width: 1204.17vw;
+.nav-list {
+  gap: 45.786vw;
+  display: flex;
+  width: 89.583vw;
+  height: 1.667vw;
 }
 
 .pagenames {
   display: flex-end;
   gap: 4.167vw;
+}
+
+.logo {
+  width: 12.131vw;
+  height: 1.6667vw;
+  text-decoration: none;
+}
+
+.logo1 {
+  width: 12.131vw;
+  height: 1.667vw;
 }
 
 .newsname,
@@ -35,17 +47,4 @@ body {
   opacity: 70%;
   font-family: "Inter";
   font-weight: 400;
-}
-
-.newsname,
-.eventsname,
-.ticketsname,
-.aboutusname {
-  text-decoration: none;
-  color: #ffffff;
-  opacity: 100%;
-  font-size: 111.11vw;
-  font-family: "Inter";
-  font-weight: 400;
-  line-height: normal;
 }
