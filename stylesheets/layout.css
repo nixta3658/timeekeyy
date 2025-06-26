@@ -117,19 +117,20 @@ body {
   border-radius: 1.04vw;
 }
 
-/* page main */
+/* page main  1st section*/
 
 .firstmain {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 25.97vw;
   height: 46.32vw;
   margin-top: 6.53vw;
-  margin-left: 5.14vw;
+  margin-left: 5.21vw;
   position: relative;
 }
 
 .textmain-1 {
+  position: absolute;
   width: 25.97vw;
   height: 35.64vw;
   margin-top: 5vw;
@@ -142,6 +143,36 @@ body {
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.textmain-2 {
+  position: absolute;
+  margin-top: 9.32vw;
+  width: 26.28vw;
+  height: 34.88vw;
+}
+
+.textmain2 {
+  position: absolute;
+  bottom: 14.75vw;
+}
+
+.textmain2,
+.textmain3,
+.textmain4 {
+  color: #000000;
+  font-size: 1.08vw;
+  font-family: "Inter";
+  font-weight: 100;
+  line-height: normal;
+}
+
+.btnmain1 {
+  position: absolute;
+  width: 19.46vw;
+  height: 5.16vw;
+  left: 0;
+  bottom: 6.46vw;
 }
 
 .imagein1 {
@@ -191,4 +222,12 @@ body {
   font-family: "Roboto";
   font-weight: 300;
   line-height: normal;
+}
+
+/* page main 2nd section */
+
+.secondmain {
+  display: flex;
+  position: static;
+
 }

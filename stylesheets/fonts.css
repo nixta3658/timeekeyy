@@ -23,12 +23,26 @@
   font-family: "Inter";
   src: url("../fonts/inter_regular2.ttf") format("truetype");
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/interlight2.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter_regular2.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
 }
 
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter_medium2.ttf") format("truetype");
   font-style: normal;
-  font-weight: 375;
+  font-weight: 300;
 }
