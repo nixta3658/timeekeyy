@@ -5,6 +5,11 @@ body {
   box-sizing: border-box;
 }
 
+section {
+  margin: 0;
+  padding: 0;
+}
+
 /* header */
 .nav-wrapper {
   background-color: #4444e3;
@@ -121,11 +126,12 @@ body {
 
 .firstmain {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 25.97vw;
   height: 46.32vw;
   margin-top: 6.53vw;
   margin-left: 5.21vw;
+  margin-bottom: 0;
   position: relative;
 }
 
@@ -140,14 +146,14 @@ body {
   color: #000000;
   font-size: 2.78vw;
   font-family: "Inter";
-  font-weight: 500;
+  font-weight: 300;
   line-height: normal;
   text-transform: uppercase;
 }
 
 .textmain-2 {
   position: absolute;
-  margin-top: 9.32vw;
+  margin-top: 7.32vw;
   width: 26.28vw;
   height: 34.88vw;
 }
@@ -162,8 +168,8 @@ body {
 .textmain4 {
   color: #000000;
   font-size: 1.08vw;
-  font-family: "Inter";
-  font-weight: 100;
+  font-family: "Roboto";
+  font-weight: 200;
   line-height: normal;
 }
 
@@ -197,7 +203,7 @@ body {
   width: 1.18vw;
   height: 3.54vw;
   right: 0;
-  align-self: center;
+  top: 20.28vw;
 }
 
 .arrow1mainright {
@@ -205,12 +211,12 @@ body {
   width: 1.18vw;
   height: 3.54vw;
   left: 0;
-  align-self: center;
+  top: 20.28vw;
 }
 
 .dscrpt1main {
   position: absolute;
-  width: 14.72vw;
+  width: 15.72vw;
   height: 1.25vw;
   bottom: 0;
   left: 17.92vw;
@@ -226,8 +232,134 @@ body {
 
 /* page main 2nd section */
 
+.mainsecond {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 35.49vw;
+  margin-top: -38.6vw;
+}
+
 .secondmain {
   display: flex;
-  position: static;
-
+  position: relative;
+  left: 5.21vw;
+  top: 2.5vw;
+  bottom: 4.03vw;
+  width: 41.21vw;
+  height: 28.96vw;
 }
+
+.museumtext {
+  color: #000000;
+  font-size: 2.08vw;
+  font-family: "Inter";
+  font-weight: 200;
+  line-height: normal;
+}
+
+.main2-1 {
+  position: absolute;
+  top: 5vw;
+  bottom: 0;
+  left: 0;
+  width: 41.21vw;
+  height: 23.96vw;
+}
+
+.museumdescr {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -19vw;
+  left: 51.04vw;
+  width: 30.56vw;
+  height: 20.35vw;
+}
+
+.descrmuseum {
+  position: relative;
+  height: 11.25vw;
+  top: 0;
+}
+
+.museumdecr {
+  color: #000000;
+  font-size: 1.08vw;
+  font-family: "Roboto";
+  font-weight: 200;
+  line-height: normal;
+}
+
+.museumtextarrow {
+  display: flex;
+  position: relative;
+  top: 7.85vw;
+  left: 0;
+  bottom: 0;
+  width: 6.28vw;
+  height: 1.25vw;
+}
+
+.more2museum {
+  color: #4444e3;
+  font-size: 1.08vw;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: normal;
+}
+
+.more2museumarrow {
+  position: absolute;
+  left: 5.9vw;
+  bottom: 0.14vw;
+  width: 0.38vw;
+  height: 0.89vw;
+}
+
+/* page main 3rd section */
+
+.thirdmain {
+  display: flex;
+  position: relative;
+  width: 89.79vw;
+  height: 75.76vw;
+  top: 3.82vw;
+  left: 5.14vw;
+}
+
+.constexpotitle {
+  display: flex;
+  position: relative;
+  width: 65.76vw;
+  height: 8.33vw;
+  top: 0;
+  left: 0;
+}
+
+.contexpotitle {
+  color: #000000;
+  font-size: 2.08vw;
+  font-family: "Ysabeau";
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* page main 4th section */
+
+.postexpo1img {
+  position: absolute;
+  top: 12.57vw;
+  left: 0;
+  width: 15.69vw;
+  height: 12.57vw;
+}
+
+.postexpo1text1 {
+  display: flex;
+  position: relative;
+  width: 65.76vw;
+  height: 8.33vw;
+  top: 4.24vw;
+  left: 0;
+}
+
